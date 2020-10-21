@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ABCriança</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnAprender">Aprender</string>
+    <string name="btnTeste">Teste</string>
+    <string name="btnSobre">Sobre</string>
+    <string name="title_activity_aprender">Aprender</string>
+    <string name="btnAprenderFrutas">Frutas</string>
+    <string name="btnAprenderAnimais">Animais</string>
+    <string name="btnAprenderNumeros">Numeros</string>
+    <string name="btnAprenderAlfabeto">Alfabeto</string>
+    <string name="btnTesteFrutas">Frutas</string>
+    <string name="btnTesteAnimais">Animais</string>
+    <string name="btnTesteNumeros">Numeros</string>
+    <string name="btnTesteAlfabeto">Alfabeto</string>
+    <string name="title_activity_aprender_alfabeto">AprenderAlfabeto</string>
+    <string name="textViewAprender">T</string>
+    <string name="title_activity_aprender_numeros">AprenderNumeros</string>
+    <string name="textViewAprNum">1</string>
+    <string name="title_activity_aprender_animais">AprenderAnimais</string>
+    <string name="title_activity_aprender_frutas">AprenderFrutas</string>
+    <string name="title_activity_teste">Teste</string>
+    <string name="title_activity_teste_alfabeto">TesteAlfabeto</string>
+    <string name="title_activity_teste_numeros">TesteNumeros</string>
+    <string name="title_activity_teste_animais">TesteAnimais</string>
+    <string name="title_activity_teste_frutas">TesteFrutas</string>
+    <string name="title_activity_sobre">sobre</string>
+    <string name="title_activity_desenhar">Desenhar</string>
+    <string name="btnDesenhar">Desenhar</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="textviewSobre">O ABC-Criança e uma Aplicação para ajudar as crianças da Pré-escola ou da Primaria (que tenha dificuldades e aprender de forma rápida) a soletrar e aprender o alfabeto, os números, os objetos, os animais e frutas de uma forma mais simples, dinâmica e divertida. </string>
+    <string name="textviewprogramer">Desenvolvedor:                    Daniel Antonio Sitoe</string>
+</resources>
