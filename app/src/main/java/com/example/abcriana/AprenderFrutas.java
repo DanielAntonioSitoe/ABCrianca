@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class AprenderFrutas extends AppCompatActivity {
     String[] strings;
-    int i = -1;
+    int i = 0;
     private TextToSpeech mTTs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,34 +31,24 @@ public class AprenderFrutas extends AppCompatActivity {
                 }
             }
         });
-        next(null);
+        mostrar();
+        speek(null);
     }
     public void next(View view){
-        try {
-            i++;
-            mostrar();
-            speek(null);
-            if (i>7){
-                i=-1;
-                next(view);
-            }
-        }catch (Exception e){
-            i=-1;
-            next(view);
+        i++;
+        if (i>7){
+            i=0;
         }
+        mostrar();
+        speek(null);
     }
 
     public void prev(View view){
-        try {
-            if(i!=0){
-                --i;
-            }
-            mostrar();
-            speek(null);
-        }catch (Exception e){
-            i=-1;
-            next(view);
+        if(i!=0){
+            --i;
         }
+        mostrar();
+        speek(null);
     }
     private void mostrar(){
         ImageView imageView = findViewById(R.id.imageViewAprFrutas);

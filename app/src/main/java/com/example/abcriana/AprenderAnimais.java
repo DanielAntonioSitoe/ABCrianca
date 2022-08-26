@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class AprenderAnimais extends AppCompatActivity {
     String[] strings;
-    int i = -1;
+    int i = 0;
     private TextToSpeech mTTs;
 
     @Override
@@ -32,34 +32,24 @@ public class AprenderAnimais extends AppCompatActivity {
                 }
             }
         });
-        next(null);
+        mostrar();
+        speek(null);
     }
     public void next(View view){
-        try {
             i++;
+            if (i>17){
+                i=0;
+            }
             mostrar();
             speek(null);
-            if (i>17){
-                i=-1;
-                next(view);
-            }
-        }catch (Exception e){
-            i=-1;
-            next(view);
-        }
     }
 
     public void prev(View view){
-        try {
             if(i!=0){
                 --i;
             }
             mostrar();
             speek(null);
-        }catch (Exception e){
-            i=-1;
-            next(view);
-        }
     }
     private void mostrar(){
         ImageView imageView = findViewById(R.id.imageViewAprAni);
