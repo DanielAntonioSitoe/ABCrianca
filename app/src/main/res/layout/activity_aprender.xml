@@ -59,7 +59,7 @@
                 android:id="@+id/btnAprenderAnimais"
                 android:layout_width="100dp"
                 android:layout_height="72dp"
-                android:background="@drawable/animais2"
+                android:background="@drawable/animais"
                 android:onClick="aprenderAnimais"/>
         </RelativeLayout>
 
@@ -75,7 +75,7 @@
                 android:id="@+id/btnAprenderFrutas"
                 android:layout_width="100dp"
                 android:layout_height="72dp"
-                android:background="@drawable/frutas2"
+                android:background="@drawable/frutas"
                 android:onClick="aprenderFrutas" />
         </RelativeLayout>
     </GridLayout>
