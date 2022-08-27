@@ -15,17 +15,25 @@ import java.util.ArrayList;
 public class PaintView  extends View {
     public ViewGroup.LayoutParams params;
     private Path path = new Path();
-    private Paint brush = new Paint();
+    public Paint brush = new Paint();
     Canvas c ;
     private ArrayList<Bitmap> list = new ArrayList<>();
+
+    public Paint getBrush() {
+        return brush;
+    }
+
+    public void setBrush(Paint brush) {
+        this.brush = brush;
+    }
 
     public PaintView(Context context) {
         super(context);
         brush.setAntiAlias(true);
-        brush.setColor(Color.MAGENTA);
+        brush.setColor(Color.GRAY);
         brush.setStyle(Paint.Style.STROKE);
         brush.setStrokeJoin(Paint.Join.ROUND);
-        brush.setStrokeWidth(25f);
+        brush.setStrokeWidth(35f);
         params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
 
     }
