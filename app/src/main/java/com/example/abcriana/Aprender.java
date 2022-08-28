@@ -19,6 +19,11 @@ public class Aprender extends AppCompatActivity {
         Intent intent = new Intent(this,AprenderAlfabeto.class);
         startActivity(intent);
     }
+    public void aprenderVogais(View view){
+
+        Intent intent = new Intent(this,AprenderVogais.class);
+        startActivity(intent);
+    }
     public void aprenderNumeros(View view){
 
         Intent intent = new Intent(this,AprenderNumeros.class);

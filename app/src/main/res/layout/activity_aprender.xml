@@ -44,7 +44,7 @@
                 android:layout_height="70dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/vogais"
-                android:onClick="aprenderAlfabeto" />
+                android:onClick="aprenderVogais" />
         </GridLayout>
 
         <GridLayout

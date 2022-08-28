@@ -18,6 +18,7 @@
         <activity android:name=".AprenderAnimais" />
         <activity android:name=".AprenderNumeros" />
         <activity android:name=".AprenderAlfabeto" />
+        <activity android:name=".AprenderVogais" />
         <activity android:name=".Sobre" />
         <activity android:name=".Desenhar" />
         <activity android:name=".Teste" />
